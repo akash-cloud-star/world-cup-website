@@ -360,7 +360,6 @@ hr {
 }
 
 .info {
-    flex-direction: column;
     align-items: center;
 
 }
@@ -369,7 +368,7 @@ hr {
     margin-bottom: 5%;
 }
 /* Tablet devices responsive */
-@media only screen and (min-width:577px) and (max-width:992px) {
+@media only screen and (min-width:578px) and (max-width:992px) {
     .header {
         width: 98%;
         margin: 0;

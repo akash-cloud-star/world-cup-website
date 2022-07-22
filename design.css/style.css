@@ -337,7 +337,7 @@ hr {
     .column {
         width: 70%;
         height: 400px;
-        margin-bottom: 790%;
+        margin-bottom: 720%;
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -365,7 +365,6 @@ hr {
 }
 
 .info {
-    flex-direction: column;
     align-items: center;
 
 }
@@ -375,7 +374,7 @@ hr {
 }
 
 /* Tablet devices responsive */
-@media only screen and (min-width:577px) and (max-width:992px) {
+@media only screen and (min-width:578px) and (max-width:992px) {
     .header {
         width: 98%;
         margin: 0;
