@@ -1,0 +1,476 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Arima&family=Finlandica:ital,wght@1,600&family=Open+Sans&family=Playfair+Display:ital@1&display=swap');
+
+/* body */
+body{
+    font-family: 'Arima', cursive;
+}
+/* header section */
+.header{
+    display: flex;
+    background: #161616;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 128px;
+    margin-right: 148px;
+}
+.top{
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-top: 70px;
+    margin-left: 107px;
+}
+.details{
+    margin-left: 107px;
+    margin-top: -14px;
+    color: #FFFFFF;
+}
+/* animattion button */
+.animation{
+    margin-left: 107px;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    height: 60px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    border-radius: 20px;
+    padding: 10px 15px;
+
+}
+a:hover{
+    animation: animate 8s linear infinite;
+}
+@keyframes animate{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+
+/* image section */
+.image{
+    margin-top: 33px;
+    margin-left: 60px;
+    background: #161616;
+}
+/* blog section */
+.nav{
+    background-color: #161616;
+    width: 270px;
+    height: 230px;
+    margin-right: 45px;
+    border-radius: 5px;
+}
+.main{
+    margin: 25px;
+    margin-top: 35px;
+}
+#upcoming-match{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+#all-group{
+    text-decoration: none;
+    color: #161616;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-top: 12px;
+    padding-left: 35px;
+    padding-right: 30px;
+    padding-bottom: 12px;
+}
+#bloog{
+    text-decoration: none;
+    color: #161616;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-top: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 12px;
+}
+.blog{
+    display: flex;
+}
+/* grid */
+.transfer{
+    display: flex;
+    margin-top: 130px;
+    margin-left: 128px;
+    margin-right: 150px;
+}
+.column{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 24px;
+    border: 1px slategray;
+}
+#image{
+    width: 50px;
+    height: 50px;
+    margin: 25px;
+}
+.blog h2{
+    margin-top: 32px;
+}
+h4{
+    margin-left: 15px;
+    border: 1px solid slategray;
+    border-radius: 5px;
+    margin-right: 90px;
+    padding: 5px;
+    margin-top: 10px;
+}
+h5{
+    margin-left: 15px;
+    margin-top: 2px;
+    margin-right: 3px;
+}
+.icon{
+    display:flex;
+    align-items: center;
+    margin-left: 25px;
+    margin-top: -25px;
+}
+.fa-solid {
+    margin-right: 20px;
+}
+.icon h2{
+    margin-right: 15px;
+    font-size: 15px;
+}
+.blog{
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+}
+.column h2{
+    margin-left: 15px;
+}
+.column p{
+    margin-left: 40px;
+    margin-top: -5px;
+}
+/* button */
+.button{
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 550px;
+    margin-right: 550px;
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    display: none;
+
+}
+#buttonn{
+    text-decoration: none;
+    color: #fff;
+}
+/* footer */
+footer {
+    background-color: #161616;
+}
+
+.top-footer {
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.top-footer h2 {
+    padding-top: 100px;
+}
+
+hr {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    width: 80%;
+    margin: auto;
+}
+
+.down-footer {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.info li {
+    list-style-type: none;
+
+
+}
+
+.info li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #B9B9B9;
+    margin-left: 62px;
+}
+
+.media-accounts {
+    display: flex;
+    justify-content: center;
+}
+
+.media-accounts a i {
+
+    color: white;
+    margin: 20px 15px;
+    color: white;
+    font-size: 20px;
+    background-color: #2e2a59;
+    padding: 10px;
+    border-radius: 50px;
+
+}
+/* Mobile devices responsive */
+@media only screen and (max-width:577px) {
+    .header {
+        width: 98%;
+        margin: 0;
+        padding: 0;
+        background-color: #161616;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header .top {
+        margin-top: 6%;
+        margin-left: 20%;
+        margin-bottom: 2%;
+    }
+
+    .header div {
+        width: 99%;
+        padding-bottom: 5%;
+    }
+
+
+    .details {
+        margin-left: 20%;
+        font-size: .8rem;
+    }
+
+    .animation {
+        margin: 0;
+        margin-left: 20%;
+        margin-bottom: 10%;
+
+    }
+
+    .image {
+        width: 50%;
+        height: 100%;
+        margin: 0;
+
+    }
+
+    .image img {
+        width: 90%;
+        padding-left: 2%;
+
+    }
+
+    .transfer {
+        width: 98%;
+        margin: 4%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .nav {
+        background: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .nav .main {
+        width: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .nav a {
+        border: 1px solid #E8E8E8;
+
+    }
+
+    .column {
+        width: 70%;
+        height: 400px;
+        margin-bottom: 260%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .blog {
+        width: 80%;
+    }
+
+    #image {
+        width: 100%;
+        margin: 0;
+    }
+
+
+}
+.footer {
+    width: 100%;
+    margin-right: 0;
+    padding-left: 0;
+    margin-top: 500px;
+}
+
+.top-footer {
+    width: 100%;
+    text-align: center;
+}
+
+.info {
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.info li {
+    margin-bottom: 5%;
+}
+/* Tablet devices responsive */
+@media only screen and (min-width:577px) and (max-width:992px) {
+    .header {
+        width: 98%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header .top {
+        margin-top: 6%;
+        margin-left: 20%;
+        margin-bottom: 2%;
+    }
+
+    .header div {
+        width: 50%;
+        padding-bottom: 5%;
+    }
+
+
+    .details {
+        margin-left: 20%;
+        font-size: .8rem;
+    }
+
+    .animation {
+        margin: 0;
+        margin-left: 20%;
+        margin-bottom: 10%;
+
+    }
+
+    .image {
+        width: 50%;
+        height: 100%;
+        margin: 0;
+    }
+
+    .image img {
+        width: 100%;
+
+    }
+
+    .transfer {
+        width: 98%;
+        margin: 4%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .nav {
+        background: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+    }
+    .nav .main {
+        width: 30%;
+        margin: 2%;
+    }
+
+    .nav a {
+        border: 1px solid #E8E8E8;
+
+    }
+.column {
+        width: 98%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .blog {
+        width: 80%;
+        gap: 8px;
+        align-items: center;
+        justify-content: center;
+        padding: 3px;
+    }
+
+    .blog div #image {
+        margin: 3%;
+    }
+
+    #image {
+        width: 100%;
+    }
+
+    .button {
+        display: inline-block;
+        text-align: center;
+        margin: 10% 44%;
+    }
+}
+footer{
+    width: 100%;
+    background-color: #161616;
+    margin: 0;
+}
+.info{
+    margin: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    padding-right: 10px;
+}
